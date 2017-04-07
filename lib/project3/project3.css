@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-31 09:58:44
+ * @version $Id$
+ */
+.box{
+	width: 328px;
+	height: 556px;
+	border: 8px solid #eeeeee;
+	margin: auto;
+}
+
+.box1{
+	width: 326px;
+	height: 30px;
+	background-color: #eeeeee;
+	border: 1px solid lightgray;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+}
+
+.box1-1{
+	width: 65px;
+	height: 30px;
+	border-bottom: 1px solid white; 	
+	border-right: 1px solid lightgray; 
+	background-color: white;
+	float: left;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.box1-2{
+	width: 65px;
+	height: 30px;
+	float: left;
+	line-height: 30px;	
+}
+
+.box1-3{
+	width: 65px;
+	height: 30px;
+	float: left;
+	line-height: 30px;	
+}
+
+.box1-4{
+	width: 65px;
+	height: 30px;
+	float: left;	
+	line-height: 30px;	
+}
+
+.box1-5{
+	width: 65px;
+	height: 30px;
+	float: left;	
+	line-height: 30px;	
+}
+
+.box2{
+	width: 326px;
+	height: 82px;
+	background-color: white;
+	border-left: 1px solid lightgray;	
+	border-bottom: 1px solid lightgray;	
+	border-right: 1px solid lightgray;
+}
+
+.box2-1{
+	width: 296px;
+	height: 21px;
+	margin-left: 10px;
+	margin-top: 13px;
+	border: 1px solid gray;
+	position: absolute;
+}
+
+.box2-2{
+	width: 296px;
+	height: 21px;
+	margin-left: 10px;
+	margin-top: 7px;
+	border: 1px solid gray;
+	position: absolute;
+	margin-top: 44px;
+}
+
+.box3{
+	width: 326px;
+	height: 138px;
+	background-color: white;
+	border-left: 1px solid lightgray;	
+	border-bottom: 1px solid lightgray;	
+	border-right: 1px solid lightgray;
+}
+
+.box3-img{
+	width: 69px;
+	height: 73px;
+	background-color: #ff4400;
+	margin-top: 10px;
+	margin-left: 14px;
+	float: left;
+}
+
+.box3-line1{
+	width: 213px;
+	height: 20px;
+	border: 1px solid gray;
+	float: left;
+	margin-left: 7px;
+	margin-top: 24px;
+}
+
+.box3-line2{
+	width: 213px;
+	height: 20px;
+	border: 1px solid gray;
+	float: left;
+	margin-left: 7px;
+	margin-top: 7px;
+}
+
+.clear1{
+	width: 165px;
+	height: 17px;
+/*	background-color: white;*/
+	float: left;
+}
+
+.box3-button1{
+	width: 105px;
+	height: 29px;
+	background-color: #ff4400;
+	margin-left: 18px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	color: white;
+	font-size: 14px;
+	font-family: "黑体";
+}
+
+.box3-button2{
+	width: 85px;
+	height: 29px;
+	background-color: #ff4400;
+	margin-left: 9px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	color: white;
+	font-size: 14px;
+	font-family: "黑体";
+}
+
+.box3-button3{
+	width: 85px;
+	height: 29px;
+	background-color: #ff4400;
+	margin-left: 9px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	color: white;
+	font-size: 14px;
+	font-family: "黑体";
+}
+
+.box4{
+	width: 326px;
+	height: 51px;
+	background-color: white;
+	border-left: 1px solid lightgray;	
+	border-right: 1px solid lightgray;
+}
+
+.box4-1{
+	width: 296px;
+	height: 21px;
+	margin-left: 10px;
+	margin-top: 13px;
+	border: 1px solid gray;
+	position: absolute;
+}
+
+.box5{
+	width: 326px;
+	height: 250px;
+	border-left: 1px solid lightgray;	
+	border-bottom: 1px solid lightgray;	
+}
+
+.box5-left{
+	width: 129px;
+	height: 166px;
+	background-color: white;
+	float: left;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+.tb1{
+	margin-left: 36px;
+	font-size: 14px;
+	font-family: "MicrosoftYaHei";
+	color: gray;
+	margin-top: 31px;
+}
+
+.tb1-1{
+	width: 47px;
+	height: 70px;
+	background-color: #ff4400;
+}
+
+.tb1-2{
+	width: 47px;
+	height: 30px;
+	text-align: center;
+	color: gray;
+}
+
+.box5-right{
+	width: 197px;
+	height: 168px;
+	float: left;
+}
+
+.tb2{
+	width: 198px;
+	height: 168px;
+	background-color: white;
+	border-collapse: collapse;
+	border: 1px solid lightgray;
+}
+
+.tb2-in{
+	font-size: 13px;
+	font-family: "MicrosoftYaHei";
+	margin: auto;
+}
+
+.tb2-out{
+	border: 1px solid lightgray;	
+}
+
+.tb2-1{
+	width: 39px;
+	height: 39px;
+	background-color: #ff4400;
+}
+
+.tb2-2{
+	width: 39px;
+	height: 20px;
+	text-align: center;
+	color: gray;
+}
+
+.box5-bottom{
+	width: 326px;
+	height: 82px;
+	float: left;
+	border-right: 1px solid lightgray;
+}
+
+.tb3{
+	width: 326px;
+	height: 82px;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+.tb3-out{
+	border-right: 1px solid lightgray;
+}

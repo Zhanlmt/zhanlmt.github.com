@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-31 09:58:44
+ * @version $Id$
+ */
+
+.box{
+	width: 1200px;
+	height: 1100px;
+	background-color: lightgray;
+	margin: auto;
+}
