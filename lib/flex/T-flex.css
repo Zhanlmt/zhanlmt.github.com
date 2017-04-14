@@ -2,9 +2,10 @@
 /**
  * 
  * @authors Your Name (you@example.org)
- * @date    2017-04-12 21:49:03
+ * @date    2017-04-13 16:11:15
  * @version $Id$
  */
+
 body{
 	background-color: #7ccd7c;
 }
@@ -16,6 +17,8 @@ body{
 	border: 1px solid black;
 	margin: auto;
 	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .ui-top{
@@ -24,18 +27,18 @@ body{
 	border: 1px solid black;
 	margin-top: 20px;
 	margin-left: 20px;
-	float: left;
 	background-color: #9bcd9b;
+	display: flex;
+	align-items: center;
 }
 
-.ui-top-item1,.ui-top-item2,.ui-top-item3,.ui-top-item4,.ui-top-item5{
+.ui-top-item1,.ui-top-item2,.ui-top-item3,
+.ui-top-item4,.ui-top-item6{
 	width: 78px;
 	height: 78px;
 	border: 1px solid black;
-	margin-top: 20px;
 	margin-left: 40px;
 	background-color: #add8e6;
-	float: left;
 }
 
 .ui-top-item1{
@@ -43,9 +46,13 @@ body{
 }
 
 .ui-top-item5{
-	float: right;
+	flex-grow: 2;
+}
+
+.ui-top-item6{
 	margin-right: 20px;
 }
+
 
 .ui-bottom{
 	width: 758px;
@@ -53,7 +60,7 @@ body{
 	border: 1px solid black;
 	margin-top: 20px;
 	margin-left: 20px;
-	float: left;
+	display: flex;
 	background-color: #9bcd9b;
 }
 
@@ -61,9 +68,10 @@ body{
 .ui-bottom-left{
 	width: 200px;
 	height: 370px;
-	float: left;
 	margin-top: 20px;
 	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .ui-bottom-left-item1{
@@ -79,7 +87,7 @@ body{
 .ui-bottom-left-item2{
 	width: 200px;
 	height: 50px;
-	float: left;
+	display: flex;
 	margin-top: 20px;
 }
 
@@ -90,7 +98,6 @@ body{
 	height: 48px;
 	border: 1px solid black;
 	margin-left: 25px;
-	float: left;
 	background-color: #add8e6;
 }
 
@@ -101,7 +108,8 @@ body{
 .ui-bottom-right{
 	width: 478px;
 	height: 370px;
-	float: left;
+	display: flex;
+	flex-direction: column;
 	margin-top: 20px;
 	margin-left: 40px;
 }
@@ -117,10 +125,10 @@ body{
 	height: 40px;
 	border: 1px solid black;
 	margin-top: 15px;
-	float: left;
 	background-color: #add8e6;
 }
 
 .ui-bottom-right-item1{
 	margin-top: 0px;
 }
+
