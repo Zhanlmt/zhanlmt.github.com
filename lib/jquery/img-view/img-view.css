@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-14 09:59:57
+ * @version $Id$
+ */
+
+.container{
+	width: 530px;
+	height: 330px;
+	margin-top: 60px;
+	margin-left: 400px;
+	border: 1px solid black;
+	box-shadow: 0 0 5px 3px gray;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	padding: 20px;
+}
+
+.ui-item1,.ui-item2,.ui-item3,.ui-item4,.ui-item5,
+.ui-item6,.ui-item7,.ui-item8,.ui-item9,.ui-item10{
+	width: 80px;
+	height: 80px;
+	border: 1px solid gray;
+	background-color: #00BFFF;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.img_in{
+	width: 70px;
+	height: 70px;
+	box-shadow: 0 0 5px 2px black;
+}
+
+.ui-out{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,1,0.3);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ui-out-item{
+	
+	border: 2px solid gray;
+	background-color: #00BFFF;
+}
+
+.img_out{
+	margin: 30px;
+	box-shadow: 0 0 20px 8px black;
+}

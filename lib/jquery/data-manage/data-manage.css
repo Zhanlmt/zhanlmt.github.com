@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-20 16:30:31
+ * @version $Id$
+ */
+
+.container{
+	width: 500px;
+	height: auto;
+	border: 1px solid #3B3B3B;
+	margin: auto;
+	margin-top: 130px;
+	display: flex;
+	flex-direction: column;
+}
+
+.another{
+	width: 500px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.ui-item{
+	width: 478px;
+	height: 35px;
+	border: 1px solid #3B3B3B;
+	margin-bottom: 10px;
+	line-height: 35px;
+	position: relative;
+}
+
+.ui-item-no{
+	width: 34px;
+	height: 35px;
+	border-right: 1px solid #3B3B3B;
+	float: left;
+	text-align: center;
+}
+
+.ui-item-text{
+	width: 372px;
+	height: 35px;
+	border-right: 1px solid #3B3B3B;
+	float: left;
+}
+
+.ui-item-delete{
+	width: 70px;
+	height: 35px;
+	float: left;
+	text-align: center;
+}
+
+.ui-item_add{
+	width: 130px;
+	height: 35px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	border: 1px solid #3B3B3B;
+	text-align: center;
+	line-height: 35px;
+	background-color: #339966;
+	color: white;
+	align-self: flex-end;
+}

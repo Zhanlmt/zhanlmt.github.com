@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-20 16:28:09
+ * @version $Id$
+ */
+
+.container{
+	width: 421px;
+	height: 253px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.ui-top-item{
+	width: 69px;
+	height: 35px;
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	float: left;
+	color: black;
+	text-align: center;
+	line-height: 50px;
+}
+
+#ui-top-item3{
+	border-right: 1px solid gray;
+}
+
+.ui-bottom{
+	width: 419px;
+	height: 200px;
+	border: 1px solid gray;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+	font-size: 30px;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-14 08:52:56
+ * @version $Id$
+ */
+
+.container{
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	background-color: lightgray;
+}
+
+.ui-top-item1,.ui-top-item2,.ui-top-item3,.ui-top-item4{
+	text-align: center;
+	width: 200px;
+}
+
+.ui-top-item1-top{
+	height: 50px;
+	background-color: red;
+	font-family: "黑体";
+	font-size: 25px;
+}
+
+.ui-top-item2,.ui-top-item3,.ui-top-item4{
+	margin-left: 10px;
+}
