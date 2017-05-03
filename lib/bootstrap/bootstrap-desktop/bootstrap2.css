@@ -1,0 +1,633 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-03 23:16:28
+ * @version $Id$
+ */
+
+.firstpage-button {
+    background-color: #0169b0;
+    width: 40px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.ui-hearder {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui-ads img {
+    width: 765px;
+    height: 250px;
+    background-color: #666666;
+    margin-left: -15px;
+}
+
+.ui-ads {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ui-headerRow {
+    background-color: #018ceb;
+    color: #ffffff;
+}
+
+.ui-product-Interpretation-pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-product-Interpretation-pic img {
+    width: 230px;
+    height: 100px;
+    background-color: #666666;
+}
+
+.ui-hot-item-subhead {
+    font-weight: bold;
+    margin-left: -15px;
+}
+
+.ui-lecturePPT1,
+.ui-lecturePPT2,
+.ui-lecturePPT3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-lecturePPT1 img,
+.ui-lecturePPT2 img,
+.ui-lecturePPT3 img {
+    width: 230px;
+    height: 100px;
+    background-color: #666666;
+    margin-top: 10px;
+    margin-left: -3px;
+    margin-bottom: 10px;
+}
+
+.PPTsign {
+    width: 30px;
+    height: 12px;
+    background-color: #fe743c;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e74b13;
+    margin-left: -3px;
+}
+
+.ui-technical-explorayion1 img,
+.ui-technical-explorayion2 img {
+    width: 350px;
+    height: 150px;
+    margin-left: 1px;
+    margin-top: 10px;
+    background-color: #666666;
+}
+
+.ui-technical-explorayion1,
+.ui-technical-explorayion2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-lecture-vedio1,
+.ui-lecture-vedio2,
+.ui-lecture-vedio3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-lecture-vedio1 img,
+.ui-lecture-vedio2 img,
+.ui-lecture-vedio3 img {
+    width: 230px;
+    height: 100px;
+    background-color: #666666;
+    margin-top: 10px;
+    margin-left: -3px;
+}
+
+.ui-technical-explorayionSecond-img img {
+    width: 230px;
+    height: 100px;
+    background-color: #666666;
+    margin-top: 10px;
+    margin-left: -3px;
+}
+
+.ui-technical-explorayionSecond-word {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-product-Interpretation2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-product-Interpretation2 span {}
+
+.ui-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin-top: 10px;
+}
+
+.ui-user-button {
+    width: 150px;
+    height: 30px;
+    background-color: #009cff;
+    border-radius: 2px;
+    margin-bottom: 45px;
+}
+
+.ui-event-subhead {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui-activity1,
+.ui-activity2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-activity1 img,
+.ui-activity2 img {
+    width: 330px;
+    height: 100px;
+    margin: 10px;
+    background-color: #666666;
+}
+
+.ui-weeklyMagazine img {
+    width: 150px;
+    height: 100px;
+    background-color: #666666;
+}
+
+.ui-weeklyMagazine .ui-weeklyMagazine-img:before {
+    width: 150px;
+    height: 25px;
+    background-color: #1f1f1f;
+    display: block;
+    content: "第128期";
+    position: absolute;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.ui-hearder {
+    margin-top: 25px;
+}
+
+#loginAndLogout {
+    margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ui-passage-button {
+    width: 50px;
+    background-color: #f9f9f9;
+    color: #e2e2e2;
+}
+.ui-passage-button span{
+    color:black;
+}
+.ui-search {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui-search input {
+    border: 0;
+}
+
+#searchicon {
+    color: #b7b7b7;
+}
+
+.ui-search {
+    margin-left: 75px;
+    background-color: #ffffff;
+    width: 240px;
+    margin-bottom: 15px;
+}
+
+#downicon {
+    color: #afafaf;
+}
+
+.ui-product-Interpretation {
+    margin-top: 10px;
+}
+
+.ui-product-Interpretation-pic {}
+
+.ui-product-Interpretation-pic img {
+    margin-top: 10px;
+    margin-left: -3px;
+    margin-bottom: 5px;
+}
+
+.ui-product-Interpretation-pic-span1 {
+    font-weight: bold;
+    margin-left: -3px;
+    margin-bottom: 20px;
+}
+
+.ui-product-Interpretation-pic-span2 {
+    color: #999999;
+    margin-left: -3px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+.ui-product-Interpretation-word-title {
+    margin-left: -10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.ui-product-Interpretation-word {
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.ui-product-Interpretation-word span {
+    display: block;
+}
+
+.ui-product-Interpretation-word-line1:before {
+    display: inline;
+    content: "　　";
+    /*用全角输入空格*/
+}
+
+.ui-product-Interpretation-word-line4 {
+    color: #9f99a8;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.ui-product-Interpretation-word-line3,
+.ui-product-Interpretation-word-line2,
+.ui-product-Interpretation-word-line1 {
+    margin-left: -10px;
+}
+
+.ui-product-Interpretation .row {
+    border: 1px solid #e2e2e2;
+}
+
+.ui-product-Interpretation .col-md-4 {
+    border-left: 1px solid #e2e2e2;
+}
+
+.ui-lecturePPT .row {
+    border: 1px solid #e2e2e2;
+    border-top: 0;
+    border-left: 0;
+}
+
+.ui-lecturePPT .col-md-4 {
+    border-left: 1px solid #e2e2e2;
+}
+
+.ui-lecturePPT1-span1,
+.ui-lecturePPT2-span1,
+.ui-lecturePPT3-span1 {
+    font-weight: bold;
+    margin-left: -3px;
+    margin-bottom: 5px;
+}
+
+.ui-lecturePPT1-span2,
+.ui-lecturePPT2-span2,
+.ui-lecturePPT3-span2 {
+    color: #999999;
+    margin-left: -3px;
+    margin-bottom: 10px;
+}
+
+.ui-lecturePPT1,
+.ui-lecturePPT2,
+.ui-lecturePPT3 {}
+
+.ui-technical-explorayion .row {
+    border: 1px solid #e2e2e2;
+    border-top: 0;
+    border-left: 0;
+}
+
+.ui-technical-explorayion .col-md-6 {
+    border-left: 1px solid #e2e2e2;
+}
+
+.ui-lecture-vedio .row {
+    border: 1px solid #e2e2e2;
+    border-top: 0;
+    border-left: 0;
+}
+
+.ui-lecture-vedio .col-md-4 {
+    border-left: 1px solid #e2e2e2;
+}
+
+.ui-technical-explorayionSecond .row {
+    border: 1px solid #e2e2e2;
+    border-top: 0;
+}
+
+
+.ui-weeklyMagazine
+ {
+    border: 1px solid #e2e2e2;
+}
+.ui-activity1,
+.ui-activity2{
+border-top: 1px solid #e2e2e2;
+border-left: 1px solid #e2e2e2;
+border-right: 1px solid #e2e2e2;
+border-bottom: 2px solid #0091ee;
+}
+.ui-technical-explorayion1-span1,
+.ui-technical-explorayion2-span1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 1px;
+}
+
+.ui-technical-explorayion1-span2,
+.ui-technical-explorayion2-span2 {
+    margin-left: 1px;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+.ui-lecture-vedio1,
+.ui-lecture-vedio2,
+.ui-lecture-vedio3 {
+    position: relative;
+}
+
+#video-icon1,
+#video-icon2,
+#video-icon3 {
+    position: absolute;
+    margin-top: 80px;
+    color: white;
+}
+
+.ui-lecture-vedio1-span1,
+.ui-lecture-vedio2-span1,
+.ui-lecture-vedio3-span1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ui-lecture-vedio1-span2,
+.ui-lecture-vedio2-span2,
+.ui-lecture-vedio3-span2 {
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+.ui-technical-explorayionSecond-word-line1 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.ui-technical-explorayionSecond-word-line2:before {
+    display: inline;
+    content: "　　";
+}
+
+.ui-technical-explorayionSecond-word-line6 {
+    color: #999999;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.ui-product-Interpretation2 .row {
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+}
+
+.ui-product-Interpretation2-line1 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.ui-product-Interpretation2-line2:before {
+    display: inline;
+    content: "　　";
+    /*用全角输入空格*/
+}
+
+.ui-product-Interpretation2-line5 {
+    color: #999999;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.ui-product-Interpretation2 .col-md-12 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-user-footer-line1cont,
+.ui-user-footer-line2cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui-user-line1 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.makeAline {
+    width: 300px;
+    border-top: 2px dotted #cccccc;
+    margin-bottom: 20px;
+}
+
+.ui-user-footer-line1span1,
+.ui-user-footer-line1span2,
+.ui-user-footer-line2span1,
+.ui-user-footer-line2span2 {
+    color: #1482cd;
+}
+
+.ui-user-footer-line1span2 {
+    margin-left: 40px;
+}
+
+.ui-user-footer-line2span1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ui-user-footer-line2span2 {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.ui-user-footer-line1span1:after,
+.ui-user-footer-line1span2:after,
+.ui-user-footer-line2span1:after,
+.ui-user-footer-line2span2:after {
+    display: "inline";
+    content: " XXXX";
+    color: #888ea6;
+}
+
+.ui-event-subhead {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui-event-subhead-span1 {
+    font-weight: bold;
+}
+
+.ui-event-subhead-span1 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.ui-event-subhead-spancont {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.ui-activity1-line1,
+.ui-activity2-line1 {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.ui-activity1-line2,
+.ui-activity2-line2 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.ui-activity1-line3,
+.ui-activity2-line3 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.ui-activity1-line4,
+.ui-activity2-line4 {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: #999999;
+}
+
+.ui-activity1,
+.ui-activity2 {
+    margin-bottom: 10px;
+}
+
+.lineAndImg-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moreAndRight-cont {}
+
+.ui-weeklyMagazine-line1-span2 {
+    color: #0097f0;
+}
+
+.ui-weeklyMagazine-line1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui-weeklyMagazine-line1-spancont {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.weeklyMagazine-makeAline {
+    width: 330px;
+    border-top: 2px dotted #cccccc;
+    margin-bottom: 15px;
+}
+
+.moreAndRight-cont {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.ui-weeklyMagazine-img img {
+    margin-bottom: 50px;
+}
+
+.tixing {
+    z-index: 1;
+   margin-bottom: -45px;
+    margin-left: auto;
+    margin-right: 0;
+    width: 0;
+    height: 0;
+    border: 1.7em solid transparent;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))
+     padding-box, 
+     repeating-linear-gradient(45deg,
+      rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 
+      12.5%, transparent 0, transparent 25%,
+       #0091ee 0, #0091ee 38%,
+        transparent 0, transparent 50%) 0 / 5em 5em;
+}
+.tixing-word span{
+     position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    transform: rotate(45deg);
+    margin-left: -20px;
+    margin-top: -20px;
+   
+
+}
+.ui-activity1.tixing-word span h6{
+
+    margin: 1px;
+    font-size: 5px;
+
+}
